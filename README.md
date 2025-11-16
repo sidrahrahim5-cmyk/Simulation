@@ -1,4 +1,4 @@
-# Surgical Unit Simulation (Python + SimPy)
+## Surgical Unit Simulation (Python + SimPy)
 
 This project models the flow of patients through a **surgical unit** consisting of:
 - Multiple **Preparation Rooms (P)**
