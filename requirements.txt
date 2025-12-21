@@ -2,4 +2,4 @@ simpy
 numpy
 pandas
 matplotlib
-#streamlit
+statsmodels
