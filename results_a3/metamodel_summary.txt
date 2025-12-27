@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               AvgQueue   R-squared:                       0.986
+Model:                            OLS   Adj. R-squared:                  0.904
+Method:                 Least Squares   F-statistic:                     11.95
+Date:                Sat, 27 Dec 2025   Prob (F-statistic):              0.218
+Time:                        16:20:51   Log-Likelihood:                 35.385
+No. Observations:                   8   AIC:                            -56.77
+Df Residuals:                       1   BIC:                            -56.21
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.0200      0.003      6.904      0.092      -0.017       0.057
+A_IA_DIST      -0.0187      0.003     -6.450      0.098      -0.056       0.018
+B_IA_RATE       0.0017      0.003      0.584      0.664      -0.035       0.039
+C_PREP_DIST    -0.0021      0.003     -0.732      0.598      -0.039       0.035
+D_REC_DIST     -0.0008      0.003     -0.278      0.828      -0.038       0.036
+E_P_UNITS      -0.0117      0.003     -4.019      0.155      -0.049       0.025
+F_R_UNITS      -0.0105      0.003     -3.603      0.172      -0.047       0.026
+==============================================================================
+Omnibus:                        8.655   Durbin-Watson:                   1.000
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):                1.333
+Skew:                           0.000   Prob(JB):                        0.513
+Kurtosis:                       1.000   Cond. No.                         1.00
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
